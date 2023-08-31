@@ -27,14 +27,14 @@ Route::get('/', function () {
 
     // return view('front.hall');
 $option = ['+','*','/'];
-$getOption = $op
+// $getOption = $op
 $data = [
     's1'=>'amy',
     's2'=>'bob',
     's3'=>'cat'
 ];
 
-return view('front.hall', ['data123',$data]);
+return view('front.hall', ['data123' => $data]);
 // return view('front.hall') -> with('data123',$data);
 
 });

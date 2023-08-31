@@ -9,7 +9,7 @@
 <body>
     <div class="container">
 <h2>hi hotel</h2>
-<a href="{{route('helloF1')}}">f1 {{$data['s1']}}</a>
+<a href="{{route('helloF1')}}">f1 {{$data123['s1']}}</a>
 <a href="/f2">f2</a>
 <a href="/f3">f3</a>
 
