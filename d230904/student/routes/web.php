@@ -16,6 +16,14 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/students', function () {
-    return view('student/index');
-});
+
+// Route::get('/', function () {
+//     return view('student/index');
+// });
+
+// use App\Http\Controllers\UserController;
+ 
+// Route::get('/user/{id}', [UserController::class, 'show']);
+
+use App\Http\Controllers\StudentController;
+ Route::resource('students', StudentController::class);
