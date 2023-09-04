@@ -22,20 +22,20 @@
 
     <div class="container mt-3">
         <div class="row mt5">
-            <div class="col"><a href="{{route('cars.f1')}}" class="btn btn-primary">F1</a></div>
+            <div class="col"><a href="{{route('cars.f1')}}" class="btn btn-primary"><img src="{{asset('image/auto-788747_1280.jpg')}}" alt="">like this!</a></div>
         </div>
         <div class="row mt5">
-            <div class="col"><a href="{{route('cars.f2')}}" class="btn btn-secondary">F2</a></div>
+            <div class="col"><a href="{{route('cars.f2')}}" class="btn btn-secondary"><img src="{{asset('image/buick-1400243_1280.jpg')}}" alt="">like this!</a></div>
         </div>
         <div class="row mt5">
-            <div class="col"><a href="{{route('cars.f3')}}" class="btn btn-success">F3</a></div>
+            <div class="col"><a href="{{route('cars.f3')}}" class="btn btn-success"><img src="{{asset('image/fiat-500-4322521_1920.jpg')}}" alt="">like this!</a></div>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col">
-                <img width="101vw" src="./image/fiat-500-4322521_1920.jpg" alt="">
+                <img width="101" src="./image/fiat-500-4322521_1920.jpg" alt="">
             </div>
         </div>
     </div>
