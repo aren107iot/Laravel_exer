@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Hi</h2>
+    <h2>Hi INDEX</h2>
+    <div class="float-end">
+        
+    </div>
 </body>
 </html>
